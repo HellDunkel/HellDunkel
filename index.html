@@ -17,16 +17,16 @@
 		#rest {
 			background-color: rgb(0, 0, 200)
 		}
-		#canvasX {
+		#canvas {
 			background-color: rgb(235, 100, 0);
-			position: absolute;
+			position: relative;
 			left: 0;
 			right: 0;
 			top: 0;
 			bottom: 0;
 			margin: auto;
-			width : 64px;
-   			height : 80px;
+			width : 100%;
+   			
             cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61aAAAADUlEQVQYV2P4//8/IwAI/QL/+TZZdwAAAABJRU5ErkJggg=='),
             url(media/blank.cur),
             none !important;
@@ -47,7 +47,7 @@
 </head>
 <body>
 	<div> hello </div>
-	<canvas id="canvasX"></canvas>
+	<canvas id="canvas"></canvas>
 	<div> hello </div>
     <script type="text/javascript" src="./game.js"></script>
 </body>
